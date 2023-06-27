@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #C5D4EB;
+}
+
+header {
+  background-color: #6C85BD;
+  color: #FFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+      background-color: #FFA500;
+      display: inline-block;
+      border-radius: 100%;
+      
+    }
+
+
+nav ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+ 
+  text-decoration: none;
+}
+
+
+
+
+.titulo{
+      background-color: lavenderblush;
+      padding: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+}
+
+ .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .columna {
+      flex-basis: 25%;
+      padding: 10px;
+    }
+
+    .productos {
+      background-color: #F5F5F5;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .productos img {
+      width: 100%;
+      height: auto;
+    }
+
+    .productos h3 {
+      margin-top: 10px;
+    }
+    .section{
+      background-color: #BB2649;
+      height: 300px;
+    }
+    .miembro {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .miembro img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+
+footer {
+  background-color: #001A5F;
+  color: #FFF;
+  
+  
+}
+.contenedor-2 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 15px;
+    }
+    
+
+    .footer {
+      margin-bottom: 20px;
+    }
+
+.copy{
+  text-align: center;
+}
+
+.formularios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-contenedor {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #fffefe;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFA500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: #FFA500;
+}
