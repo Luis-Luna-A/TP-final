@@ -6,12 +6,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #C5D4EB;
+  /*background-color: #C5D4EB;*/
+  background-image: url(../images/heavy.jpg) ;
+  background-repeat: repeat;
 }
 
 header {
-  background-color: #6C85BD;
-  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -36,15 +37,20 @@ nav ul li {
 }
 
 nav ul li a {
- 
+ color: white;
   text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: whitesmoke;
+  color: #585858;
+  
 }
 
 
 
-
 .titulo{
-      background-color: lavenderblush;
+      background-color: black;
+      color: #fff;
       padding: 10px;
       font-size: 24px;
       font-weight: bold;
@@ -76,9 +82,18 @@ nav ul li a {
     .productos h3 {
       margin-top: 10px;
     }
-    .section{
-      background-color: #BB2649;
-      height: 300px;
+
+    /* equipo de trabajo */    
+    .section {
+      background-color: rgba(0, 0, 0, 0.8);
+      position: relative;
+      top: 1px;
+      left: 40%;
+      bottom: 50px;
+      
+      height: 200px;
+      width: 300px;
+      color: red;
     }
     .miembro {
       display: flex;
@@ -116,24 +131,28 @@ footer {
   text-align: center;
 }
 
+/* formularios */
+
 .formularios {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: white;
 }
 
 .form-contenedor {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 300px;
   padding: 20px;
-  border: 2px solid #fffefe;
+  border: 2px solid #fffefe   ;
   border-radius: 5px;
   margin: 10px;
 }
 
 h2 {
   text-align: center;
+
 }
 
 label {
@@ -162,5 +181,7 @@ button {
 }
 
 button:hover {
-  background-color: #FFA500;
+  background-color: #ffd382;
+  color: #585858;
+  cursor: pointer;
 }
